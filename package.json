@@ -4,7 +4,7 @@
     "scripts": {
         "start": "ts-node --project tsconfig.json src/index.tsx",
         "test": "jest --config=./config/jest.config.ts",
-        "build": "tsc"
+        "build": "ts-node --project script/tsconfig.json script/build.ts"
     },
     "devDependencies": {
         "@types/jest": "^27.5.1",
