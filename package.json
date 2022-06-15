@@ -1,5 +1,5 @@
 {
-    "name": "bewitched",
+    "name": "hex-editor",
     "version": "0.0.0",
     "scripts": {
         "start": "ts-node --project tsconfig.json src/index.tsx",
@@ -11,9 +11,6 @@
         "@typescript-eslint/eslint-plugin": "^5.19.0",
         "@typescript-eslint/parser": "^5.19.0",
         "eslint": "^8.15.0",
-        "eslint-plugin-jest": "^26.2.2",
-        "jest": "^28.1.0",
-        "ts-jest": "^28.0.3",
         "ts-node": "^10.7.0",
         "typescript": "^4.7.3"
     },
