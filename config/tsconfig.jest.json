@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+      "lib": ["ESNext"],
+      "module": "CommonJS",
+      "target": "ESNext",
+      "noEmit": true,
+      "rootDir": "../",
+      "checkJs": true,
+      "suppressImplicitAnyIndexErrors": true
+  },
+}
